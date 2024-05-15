@@ -1,0 +1,408 @@
+/* Overall size */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: Arial;
+}
+	
+ /* Style overall header */
+ .header {
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	background-color: #ccdef7;
+	padding: 20px 60px 10px 60px;
+	font-weight: 100;
+	text-align: left;
+	}
+	
+ /* Style the text */
+ .header h1 {
+	font-weight: 1000;
+	margin-right: 150px;
+	font-size: 30;
+	color:rgb(12, 30, 65);
+	}
+	
+ /* Style the text */
+ .header img {
+	margin-right: 2px;
+	}
+	
+ /*  Style the navigation */
+ #header_nav{
+    background-color: rgb(12, 30, 65);
+    height: 50px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+#header_nav_ul{
+    list-style-type: none;
+    margin: 0;
+    
+    padding-top: 10px;
+    overflow:hidden;
+    font-size: 15px;
+}
+
+#header_li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+#header_li{
+    float: left;
+    border-right: solid 1px rgb(255, 255, 255);
+}
+
+#header_li a:hover{
+    background-color:#ccdef798;
+}
+
+	
+ /* The home navigation block white in color */
+ .active {
+	background-color: white;
+	}
+	
+ /* style the body */
+ .body {
+	border: 2px solid #e5e5e5;
+	border-radius: 8px;
+	background-color: #e5e5e5;
+	font-size:17;
+	padding: 10px 20px;
+	margin: 60px;
+	}
+
+ /* Clear floats after the columns */
+ .row:after {
+	content: "";
+	display: table;
+	clear: both;
+	}
+	
+ /* Image with caption below */
+ img.a {
+  vertical-align: bottom;
+	}
+
+ img.b {
+  vertical-align: bottom;
+	}
+
+ /* Create three equal columns that floats next to each other*/
+.columnteam {
+	float: left;
+	width: 33.3%;
+	margin-bottom: 30px;
+	padding: 0 8px;
+	}
+	
+.columnteam:hover {
+	background-color: #ccdef7;
+	}	
+	
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: 8px;
+	}
+	 
+.title {
+	color: grey;
+	padding-top: 5px;
+	}
+	
+.button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #34495E;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	}
+
+.button:hover {
+	background-color: #528AAE;
+	}
+	
+.containerteam {
+	padding: 10px;
+	height: 125px;
+	background-color: #ffffff;
+	padding-left: 10%;
+    padding-right: 10%;
+	}
+
+.containerteam::after, .row::after {
+	content: "";
+	clear: both;
+	display: table;
+	}
+	
+@media screen and (max-width: 650px) {
+ .columnteam {
+		width: 100%;
+		display: block;
+		}
+	}
+ 
+ /* Create two equal columns that floats next to each other */
+ .column {
+	float: left;
+	padding: 60px;
+	font-size: 20;
+	}
+
+ /* Right column */
+ .column.sideRight{
+	width: 50%;
+	
+	}
+
+ /* Left column */
+ .column.sideLeft {
+	width: 50%;
+	}
+	
+ /* Create two unequal columns that floats next to each other */
+ .column1 {
+	float: left;
+	background-color: #ffff;
+	padding: 60px;
+	font-size: 18;
+	}
+	
+ /* Right column */
+ ul.column1.sideRight1 {
+	list-style-type: circle;
+	width: 60%;
+	text-align: justify;
+	
+	}
+	
+ /* Left column */
+ .column1.sideLeft1 {
+	width: 40%;
+	}
+	
+ /* Style the FAQ */
+ .FAQ {
+	background-color: #b4d9db;
+	width: 90%;
+	border: 1px solid #b4d9db;
+	border-radius: 8px;
+	padding: 20px 60px;
+	margin: 60px 90px;
+	color: #0F2557;
+	font-size: 18;
+	}
+	
+ /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+ .column.side {
+		width: 100%;
+			}
+		}
+
+
+ /*style the footer*/
+ .footer {
+	padding: 10px;
+	background-color: white;
+	border-top: 10px solid #eeeeee;
+	
+	}
+				
+ .footer b {
+	font-size: 70%;
+	color: gray;
+	}
+			
+ /*create class for columns in footer*/
+ .columns {
+	width:100%;
+	float: left;
+	padding-top: 20px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 20px;
+	}
+ 
+
+ .columns.small {
+	width: 15%;
+	}
+	
+ .columns.small1 {
+	width: 15%;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	padding: 30px 60px ;
+	text-align: left;
+	}
+	
+ .columns.small1 h1 {
+	font-weight: bold;
+	margin-right: 150px;
+	font-size: 20;
+	color:#0F2557;
+	}
+	
+ .columns.small1 img {
+	margin-right: 2px;
+	}
+	
+ /* Responsive layout - makes all columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+ .column.small {
+		width: 100%;
+			}
+		}
+
+
+
+/* INPUT FORM */
+#container {
+    height: 850px;
+    background-color: #ffffff;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#result {
+    background-color: #ffffff;
+    padding-left: 10%;
+    padding-right: 10%;
+	border-radius: 10px;
+    border: 2px #ccdef7;
+	padding: 10px;
+}
+
+#container h2 {
+    color: rgb(12, 30, 65);
+    font-size: 30px;
+    text-align: center;
+}
+
+
+fieldset{
+    background-color: #ccdef7;
+    border-radius: 10px;
+    border: 2px #ccdef7;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+
+#formquery #method {
+    text-align:left;
+	padding-top: 12px;
+	padding-left: 5%;
+	height: 40px;
+}
+
+
+
+#formquery #option {
+    height: 30px;
+    width: 300px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+
+#formquery #opt1 {
+    background-color: #ccdef7;
+    height: 470px;
+    border-radius: 10px;
+    border: 2px rgb(12, 30, 65);
+    display:none;
+    margin-top: 40px;
+    padding-left: 5%;
+}
+
+#formquery label{
+    font-size: 17px;
+    color: #021a19;
+    line-height: 2;
+}
+
+#formquery textarea {
+    padding: 10px;
+    border-radius: 8px;
+    resize: none;
+    font-size: 15px;
+}
+
+#formquery input[type=text] {
+    width:170px;
+    height: 30px;
+    border: 2px rgb(12, 30, 65);
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+#formquery #opt2 {
+    background-color: #ccdef7;
+    height: 580px;
+    border-radius: 10px;
+    border: 2px rgb(12, 30, 65);
+    display:none;
+    margin-top: 40px;
+    padding-left: 5%;
+}
+
+#formquery #opt2 input[type=radio] {
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+#formquery #opt2 input[type=file]{
+    font-size: 15px;
+    border: none;
+}
+
+#formquery input[type=submit], input[type=reset] {
+    width: 120px;
+    background-color: rgb(12, 30, 65);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+#formquery input[type=submit]:hover, input[type=reset]:hover{
+    background-color: grey;
+}
+
+table {
+	font-family: Arial, HelveHca, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+   }
+   
+   table td, th {
+	border: 4px solid #fcfafa;
+	padding: 10px;
+   }
+   
+   table tr:nth-child{background-color: #aeadad;}
+   table th {
+	padding-top: 12px;
+	padding-bosom: 12px;
+	text-align: leK;
+	background-color: rgb(12, 30, 65);
+	color: white;
+   }

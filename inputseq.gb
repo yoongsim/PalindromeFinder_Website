@@ -1,0 +1,41 @@
+LOCUS       OX384051                 293 bp    mRNA    linear   PRI 07-DEC-2022
+DEFINITION  Homo sapiens mRNA for mRNA (IGHV3-13 gene), clone
+            IGHV3-13*01_G290A_T300C.
+ACCESSION   OX384051
+VERSION     OX384051.1
+DBLINK      BioProject: PRJEB26509
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1
+  AUTHORS   Gilboa,A. and Peres,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-DEC-2022) BAR-ILAN UNIVERSITY, Yaari lab, Bar Ilan
+            University, Ramat Gan 5290002, Israel
+FEATURES             Location/Qualifiers
+     source          1..293
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /clone="IGHV3-13*01_G290A_T300C"
+     gene            <1..>293
+                     /gene="IGHV3-13"
+     CDS             <1..>293
+                     /gene="IGHV3-13"
+                     /inference="alignemnt:ERR10444293"
+                     /codon_start=1
+                     /product="mRNA"
+                     /protein_id="CAI5599490.1"
+                     /translation="EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYDMHWVRQATGKG
+                     LEWVSAIGTAGDTYYPGSVKGRFTISRENAKNSLYLQMNSLRAEDTAVYYCAR"
+ORIGIN      
+        1 gaggtgcagc tggtggagtc tgggggaggc ttggtacagc ctggggggtc cctgagactc
+       61 tcctgtgcag cctctggatt caccttcagt agctacgaca tgcactgggt ccgccaagct
+      121 acaggaaaag gtctggagtg ggtctcagct attggtactg ctggtgacac atactatcca
+      181 ggctccgtga agggccgatt caccatctcc agagaaaatg ccaagaactc cttgtatctt
+      241 caaatgaaca gcctgagagc cgaggacacg gccgtgtatt actgtgcaag aga
+//
+
